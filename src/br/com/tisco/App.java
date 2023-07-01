@@ -69,19 +69,15 @@ public class App {
                     dadosSeparados[3], dadosSeparados[4], dadosSeparados[5], dadosSeparados[6]);
             App.dados = dados;
 
-        return isCadastrado(String.valueOf(cliente));
+        return isCadastro(String.valueOf(cliente));
     }
-    boolean isCadastro = cadastar(dados);
-         if (isCadastrado) {
-        JOptionPane.showInputDialog(null,
-                "Cadastro concluído com sucesso!",
-                "Cadastro concluído",
-                JOptionPane.INFORMATION_MESSAGE);
-    } else {
-        JOptionPane.showInputDialog(null,
-                "Cliente já cadastrado!",
-                "Erro",
-                JOptionPane.INFORMATION_MESSAGE);
+    public static boolean verificarClienteCadastrado(String nome, String cpf) {
+        for (Cliente cliente : iClienteDAO.buscarTodos()) {
+            if (cliente.getNome().equals(nome) && cliente.getCpf().equals(cpf)) {
+                return true; // ENCONTRADO
+            }
+        }
+        return false; // NÃO ENCONTRADO
     }
 
 

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d6677a4-84fe-4b27-9573-30ef7ad3d283" name="Changes" comment="primeiro commit">
+    <list default="true" id="8d6677a4-84fe-4b27-9573-30ef7ad3d283" name="Changes" comment="segundo commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/tisco/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/tisco/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/tisco/dao/ClienteMapDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/tisco/dao/ClienteMapDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/tisco/dao/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/tisco/dao/IClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/tisco/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/tisco/domain/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

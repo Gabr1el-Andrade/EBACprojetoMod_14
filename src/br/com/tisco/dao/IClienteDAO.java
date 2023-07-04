@@ -7,9 +7,9 @@ import java.util.Collection;
 public interface IClienteDAO {
     boolean cadastrar(Cliente cliente);
 
-    public void excluir(Long cpf);
+    public boolean excluir(Long cpf);
 
-    public void alterar (Cliente cliente);
+    public boolean alterar (Cliente cliente);
 
     public Cliente consultar(long cpf);
 
